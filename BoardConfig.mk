@@ -62,7 +62,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 TARGET_LD_SHIM_LIBS += :/system/lib64/hw/gxfingerprint5118m.default.so|fakelogprint.so:/system/lib64/hw/fingerprint.vendor.msm8996.so|fakelogprint.so:/system/bin/gx_fpd|fakelogprint.so
 
 # SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # inherit from the proprietary version
 -include vendor/leeco/zl1/BoardConfigVendor.mk
